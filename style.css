@@ -20,13 +20,42 @@
     
 }
 .conteudo-musica {
+    
     p{
         font-size: 1.8rem;
     }
     span{
-        font-size: 1.2rem;
+        font-size: 0.9rem;
     }
     .fundo{
         border-radius: 5px;
+    }
+}
+.controles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    button{
+        margin-right: 10px;
+    }
+}
+.progresso-musica {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    input{
+        width: 100%;
+    }
+}
+.tempo-musica {
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    padding: 5px;
+    span{
+        padding: 3px;
     }
 }
