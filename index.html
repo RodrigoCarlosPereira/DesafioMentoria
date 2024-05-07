@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio 01</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <h1>oi</h1>
+    <div class="container">
+        <div class="card-player">
+            <div class="conteudo-musica">
+                <img src="./assets/fundo-musica-sunny.jpg" alt="">
+                <div class="nome-musica">
+                    <p>Sunny</p>
+                    <span>Yorushika</span>   
+                </div>
+            </div>
+            <div class="controles">
+                <button><img src="./assets/voltar.png" alt="voltar"></button>
+                <button><img src="./assets/play.png" alt="play"></button>
+                <button><img src="./assets/avancar.png" alt="avançar"></button>
+            </div>
+            <div class="progresso-musica">
+                <input type="range" value="0" min="0" 
+                max="100" step="1">
+            </div>
+            <div class="tempo-musica">
+                <span>00:00</span>
+                <span>06:00</span>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

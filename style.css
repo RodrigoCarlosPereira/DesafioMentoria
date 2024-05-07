@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.container {
+    background: #06040f;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-player{
+    background: #130e30;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.conteudo-musica {
+    p{
+        font-size: 1.8rem;
+    }
+    span{
+        font-size: 1.2rem;
+    }
+}
