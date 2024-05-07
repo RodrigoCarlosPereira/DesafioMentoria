@@ -15,7 +15,9 @@
     color: whitesmoke;
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    padding: 35px;
+    border-radius: 15px;
+    
 }
 .conteudo-musica {
     p{
@@ -23,5 +25,8 @@
     }
     span{
         font-size: 1.2rem;
+    }
+    .fundo{
+        border-radius: 5px;
     }
 }
