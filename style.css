@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     margin: 0;
     box-sizing: border-box;
     padding: 0;
 }
+
+.hide{
+    display: none;
+}
+
 .container {
     background: #06040f;
     height: 100vh;
@@ -20,30 +27,31 @@
     
 }
 .conteudo-musica {
-    
+    font-family: 'Roboto', sans-serif;
     p{
         font-size: 1.8rem;
     }
     span{
         font-size: 0.9rem;
+        opacity: 60%;
     }
     .fundo{
         border-radius: 5px;
     }
 }
 .controles {
+    margin: 30px 0px 30px 0px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
+    justify-content: space-between;
     button{
-        margin-right: 10px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
     }
 }
 .progresso-musica {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     padding: 5px;
     input{
         width: 100%;
@@ -51,11 +59,7 @@
 }
 .tempo-musica {
     display: flex;
-    flex-direction:row;
-    justify-content:center;
-    align-items: center;
+    justify-content: space-between;
     padding: 5px;
-    span{
-        padding: 5px;
-    }
+    font-size: 1.4rem;
 }
